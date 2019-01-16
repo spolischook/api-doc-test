@@ -1,0 +1,8 @@
+product:
+    type:     rest
+    resource: App\Controller\ApiController
+    prefix: /api
+controllers:
+    resource: ../../src/Controller/
+    type: annotation
+
